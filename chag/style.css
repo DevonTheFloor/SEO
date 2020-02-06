@@ -80,14 +80,14 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/*.bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0;*/
 }
 
 .texture-paper::before {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -723,7 +723,8 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #996600;
+      /*#333333!important;*/
 }
 
 h4 {
@@ -753,7 +754,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #996600;
+      /*rgba (165, 147, 99, 0.7);*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,15 +777,19 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: orange;
+    background-color: #996600;
+      /*#F3976C!important;*/
 }
 
 .btn-atomic-tangerine {
+    border: 2px solid #996600;
     background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
+    border: 2px solid #996600;
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -818,7 +824,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere2.jpg");
 }
 
 .bg-presentation {
